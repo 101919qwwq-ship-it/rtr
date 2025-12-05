@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Droid CRUD</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Droid CRUD</h1>
+    <section class="form">
+      <h2>Dodaj droida</h2>
+      <input id="add_name" placeholder="Imię" />
+      <input id="add_type" placeholder="Typ" />
+      <input id="add_manufacturer" placeholder="Producent" />
+      <input id="add_year" placeholder="Rok produkcji" type="number" />
+      <input id="add_status" placeholder="Status" />
+      <button id="btnAdd">Dodaj</button>
+    </section>
+    <section>
+      <h2>Lista droidów</h2>
+      <div id="table"></div>
+      <div id="status"></div>
+    </section>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
